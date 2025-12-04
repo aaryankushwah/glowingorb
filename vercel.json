@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/orb", "destination": "https://orb.aaryankushwah.com", "permanent": false }
+  ]
+}
