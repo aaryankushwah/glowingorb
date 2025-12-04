@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Tracking Particle System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div class="spinner"></div>
+        <p>Initializing hand tracking...</p>
+    </div>
+
+    <!-- Status UI removed -->
+
+    <video id="webcam" autoplay playsinline></video>
+    <canvas id="output"></canvas>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- MediaPipe Hands -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+    <!-- Main Application -->
+    <script src="app.js"></script>
+</body>
+
+</html>
